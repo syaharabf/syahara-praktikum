@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Pasien - Klinik Sehat</title>
+</head>
+<body>
+
+    <h2>Formulir Pendaftaran Pasien Klinik Sehat</h2>
+
+    <form action="#" method="post">
+
+        <label>Nama Lengkap:</label><br>
+        <input type="text" name="nama" required><br><br>
+
+        <label>NIK:</label><br>
+        <input type="number" name="nik" required><br><br>
+
+        <label>Tempat Lahir:</label><br>
+        <input type="text" name="tempat_lahir"><br><br>
+
+        <label>Tanggal Lahir:</label><br>
+        <input type="date" name="tanggal_lahir"><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" name="jk" value="Laki-laki"> Laki-laki<br>
+        <input type="radio" name="jk" value="Perempuan"> Perempuan<br><br>
+
+        <label>Alamat Lengkap:</label><br>
+        <textarea name="alamat" rows="3"></textarea><br><br>
+
+        <label>No. Telepon / HP:</label><br>
+        <input type="text" name="telepon"><br><br>
+
+        <label>Keluhan Utama:</label><br>
+        <textarea name="keluhan" rows="3"></textarea><br><br>
+
+        <label>Golongan Darah:</label><br>
+        <select name="golongan_darah">
+            <option value="">-- Pilih --</option>
+            <option>A</option>
+            <option>B</option>
+            <option>AB</option>
+            <option>O</option>
+        </select><br><br>
+
+        <label>Riwayat Penyakit (opsional):</label><br>
+        <input type="text" name="riwayat"><br><br>
+
+        <label>Upload Foto / KTP (opsional):</label><br>
+        <input type="file" name="foto"><br><br>
+
+        <button type="submit">Daftar</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
