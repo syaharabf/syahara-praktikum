@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Perpustakaan Kota Madiun</title>
+</head>
+<body>
+
+    <h2>Formulir Anggota Perpustakaan Kota Madiun</h2>
+
+    <form action="#" method="post">
+
+        <label>Nama Lengkap:</label><br>
+        <input type="text" name="nama" required><br><br>
+
+        <label>NIK:</label><br>
+        <input type="number" name="nik" required><br><br>
+
+        <label>Tempat Lahir:</label><br>
+        <input type="text" name="tempat_lahir"><br><br>
+
+        <label>Tanggal Lahir:</label><br>
+        <input type="date" name="tanggal_lahir"><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" name="jk" value="Laki-laki"> Laki-laki<br>
+        <input type="radio" name="jk" value="Perempuan"> Perempuan<br><br>
+
+        <label>Alamat:</label><br>
+        <textarea name="alamat" rows="3"></textarea><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>No. Telepon:</label><br>
+        <input type="text" name="telepon"><br><br>
+
+        <label>Pendidikan Terakhir:</label><br>
+        <select name="pendidikan">
+            <option value="">-- Pilih --</option>
+            <option>SD</option>
+            <option>SMP</option>
+            <option>SMA/SMK</option>
+            <option>D3</option>
+            <option>S1</option>
+            <option>S2</option>
+            <option>S3</option>
+        </select><br><br>
+
+        <label>Upload Foto (opsional):</label><br>
+        <input type="file" name="foto"><br><br>
+
+        <button type="submit">Kirim Formulir</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
