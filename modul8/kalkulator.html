@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator Sederhana</title>
+    <script src="kalkulator.js"></script>
 </head>
 <body>
 
@@ -24,25 +25,6 @@
 
     Hasil:  
     <input type="text" id="hasil" readonly>
-
-    <script>
-        function hitung(operasi) {
-            let a = parseFloat(document.getElementById("bil1").value);
-            let b = parseFloat(document.getElementById("bil2").value);
-            let hasil = "";
-
-            if (isNaN(a) || isNaN(b)) {
-                hasil = "Input tidak valid";
-            } else {
-                if (operasi === "+") hasil = a + b;
-                else if (operasi === "-") hasil = a - b;
-                else if (operasi === "*") hasil = a * b;
-                else if (operasi === "/") hasil = a / b;
-            }
-
-            document.getElementById("hasil").value = hasil;
-        }
-    </script>
 
     <br><br><br>
 
